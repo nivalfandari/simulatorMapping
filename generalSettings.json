@@ -1,34 +1,39 @@
 {
-  "slam_configuration": {
-    "vocabulary_path": "/home/liam/dev/simulatorMapping/Thirdparty/slam/Vocabulary/ORBvoc.txt",
-    "drone_yaml_path": "/home/liam/dev/simulatorMapping/Thirdparty/slam/config/tello_9F5EC2_640.yaml",
-    "load_map": false,
-    "load_map_path": "/home/liam/Documents/all-data/slamMaps/example_mapping11/simulatorMap.bin",
-    "save_map": true
-  },
-  "simulator_configuration": {
-    "model_path": "/home/liam/Documents/all-data/aaa/untitled.obj",
-    "run_with_slam": false,
-    "movement_factor": 0.05,
-    "simulator_starting_speed": 1,
-    "align_model_to_texture": {
-      "align": true,
-      "texture": "floor"
-    },
-    "starting_pose": {
-      "x": 0.1,
-      "y": -0.1,
-      "z": 0.3
-    },
-    "simulator_output_dir": "/home/liam/Documents/all-data/slamMaps/"
-  },
-  "offline_video_test_path": "/home/liam/Documents/all-data/mapping.avi",
-  "continue_scanning": false,
-  "use_webcam": true,
-  "target_pose": {
-    "x": 1,
-    "y": 2,
-    "z": 3
-  }
+    "VocabularyPath": "/mnt/vmshared/proj_new/simulatorMapping/Vocabulary/newVoc.bin",
+    "DroneYamlPathSlam": "/mnt/vmshared/proj_new/simulatorMapping/config/tello_9F5EC2_640.yaml",
+    "offlineVideoTestPath": "/home/niv/Downloads/all-data/mapping.avi",
+    "loadMap": false,
+    "loadMapPath": "/home/niv/Downloads/all-data/slamMaps/example_mapping11/simulatorMap.bin",
+    "saveMap": true,
+    "simulatorOutputDir": "/home/niv/Downloads/all-data/slamMaps/",
+    "alignModelToTexture": false,
+    "modelTextureNameToAlignTo": "floor",
+    "mapInputDir": "/home/niv/Downloads/all-data/slamMaps/example_mapping11/",
+    "continue": false,
+    "webcam": true,
+    "startingCameraPosX": 2.84642,
+    "startingCameraPosY": -2.5772,
+    "startingCameraPosZ": 1.00255,
+    "yawRad": 3.03,
+    "pitchRad": 0.159227,
+    "rollRad": 2.87,
+    "movingScale": 0.2,
+    "rotateScale": 0.2,
+    "modelPath": "/home/niv/Downloads/all-data/ccc/untitled.obj",
+    "pointSize": 10,
+    "movementFactor": 0.05,
+    "framesFolder": "/home/niv/Downloads/all-data/textures/",
+    "framesOutput": "/home/niv/Downloads/all-data/frames/",
+    "useLabICP": true,
+    "simulatorStartingSpeed": 1,
+    "trackImages": false,
+    "yawMovement": 1,
+
+
+    "targetPointX": 0.6,
+    "targetPointY": -0.05,
+    "targetPointZ": -0.1,
+    "nerf": true
+
 }
 
